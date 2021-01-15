@@ -106,7 +106,7 @@ export default class ReceiverDetailScreen extends Component{
                                 <Text> I want to donate </Text>
                             </TouchableOpacity>
                         ): (
-
+                            null
                         )
                     }
                 </View>
