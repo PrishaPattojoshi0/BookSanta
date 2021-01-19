@@ -3,7 +3,7 @@ import {Header, Icon, Badge} from 'react-native-elements';
 import {Text, View, StyleSheet} from 'react-native';
 
 const BellIconWithBadge= (props)=>{
-    return(){
+    return(
         <View>
         <Icon name= "bell" type= "font-awesome"  color= "#696969" size= {25}        
         onPress={()=>props.navigation.navigate('notifications')} />
@@ -12,7 +12,7 @@ const BellIconWithBadge= (props)=>{
         containerStyle={{position:'absolute', top:-4}}
         /> 
         </View>
-    }
+    )
 }
 
 
